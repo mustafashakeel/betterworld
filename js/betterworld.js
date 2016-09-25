@@ -1,4 +1,4 @@
-var startingItem = 3;
+var startingItem = 2;
 
 $(document).ready(function() {
 	$('.carousel_data .carousel_item').each(function(){	
@@ -6,6 +6,11 @@ $(document).ready(function() {
 	});
 	createCarousel();
 	showCaption();
+	$('#first').click(function(){
+		$('div#carousel').roundabout("animateToChild", 2);
+		showCaption();
+
+	});
 });
 
 function createCarousel(){
@@ -25,7 +30,9 @@ function createCarousel(){
 function createCustomButtons(){
 	
 	$('.nextItem').click(function(){
+
 		hideCaption();
+
 		$('div#carousel').roundabout('animateToNextChild', showCaption);
 	});
 	
@@ -43,7 +50,12 @@ function hideCaption(){
 	$('#captions').animate({'opacity':0}, 250);
 }
 
+function tabstoCarousel(){
+	$('div#carousel').roundabout("animateToChild", 2);
+}
+
 function showCaption(){
+	console.log(" image focus ", $('div#carousel').data('roundabout').childInFocus)
 	var childInFocus = $('div#carousel').data('roundabout').childInFocus
 	var setCaption = $('.carousel_data .carousel_item .caption:eq('+childInFocus+')').html();
 	$('#captions').html(setCaption);

@@ -6,7 +6,6 @@ var express = require('express');
 var app = express();
 var request = require('request');
 
-
 // Serve static files
 app.use('/', express.static(__dirname + "/", {
   setHeaders: function (res, path) {

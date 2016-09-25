@@ -1,5 +1,4 @@
-/* CSS Document                             */
-/* Written by Chris Converse for lynda.com  */
+
 
 @charset "UTF-8";
 
@@ -18,4 +17,8 @@
 .leaves { position: absolute; top: 270px; left: 102px; z-index: 1000; }
 
 .carousel_data { display: none; }
+.logoImage{
+	text-align: center;
+}
+
 
