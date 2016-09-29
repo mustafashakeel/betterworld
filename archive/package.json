@@ -1,0 +1,24 @@
+{
+  "name": "betterworld",
+  "version": "1.0.0",
+  "description": "Better World\r -------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafashakeel/betterworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafashakeel/betterworld/issues"
+  },
+  "homepage": "https://github.com/mustafashakeel/betterworld#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.74.0"
+  }
+}

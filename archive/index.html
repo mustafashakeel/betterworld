@@ -1,0 +1,245 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Better World</title>
+		<link rel="stylesheet" type="text/css" href="css/betterworld.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+		
+
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/roundabout/2.4.2/jquery.roundabout.js"></script>
+
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid logoImage">
+		<div class="container-header">
+			<a href="#" class="container-brand">
+				<img src="images/logo.png" alt="Brand">
+			</a>
+		</div>
+	</div>
+	
+</nav>
+	
+
+
+
+		<!-- Carousel -->
+		<div class="my_carousel">
+			<!-- Carousel Containter -->
+			<div class="carousel_container">
+				<div id="carousel"></div>
+				<img class="nextItem" src="images/arrow_left.png"/>
+				<img class="prevItem" src="images/arrow_right.png"/>
+			</div>
+			<!-- Nav Items  -->
+		<!-- 	<ul class="nav nav-pills nav-stacked " id="navtabs">
+			  <li role="presentation" ><a href="#">Ecological Sustainability</a></li>
+			  <li role="presentation" class="active"><a href="#" id="first">Deep Democracy</a></li>
+			  <li role="presentation"><a href="#">Economic Fairness</a></li>
+			  <li role="presentation"><a href="#">Comprehensive peace</a></li>
+			  <li role="presentation"><a href="#">Social Justice</a></li>
+			  <li role="presentation"><a href="#">Simple Living</a></li>
+			  <li role="presentation"><a href="#">Revitalized Community</a></li>
+			</ul>
+		 -->
+
+			<!-- Caption Container -->
+			<div class="caption_container">
+				<div id="captions"></div>
+			</div>
+
+			<img class="leaves" src="images/leaves.png"/>
+			
+			<!-- Carousel Data -->
+			<div class="carousel_data">
+				
+				<!-- begin items -->
+
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="images/ecology.png" alt="Ecological Sustainability" />
+					</div>
+					<div class="caption">
+						<h2>Ecological Systainability</h2>
+						<ul>
+							<li>
+								Resource Overconsumption
+							</li>
+							<li>
+								pollution 
+							</li>
+							<li>
+								global warming 
+							</li>
+							<li>
+								overpopulation
+							</li>
+							<li><strong>Goals - Clean Energy Sources - Sustainable Resource Use - Stable Population Growth - Global Coorporation</strong></li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="images/equity.png" alt="Economic Fairness" />
+					</div>
+					<div class="caption">
+						<h2>Economic Fairness</h2>
+						<p>
+							<ul>
+								<li>Dept crisis unfair trade</li>
+								<li>Sweatshops</li>
+								<li><strong>Goals - End Global Poverty - fair trade - ethical economics</strong></li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="images/democracy.png" alt="Deep Democracy" />
+					</div>
+					<div class="caption">
+						<h2>Deep Democracy</h2>
+						<ul>
+							<li>
+								Lack of Democreacy - Money in Politics - Media Control
+							</li>
+							<li>
+								<strong>Goals - Open and Honest Politics - Democratic Media - Civic Participation</strong>
+							</li>
+						</ul>
+					</div>
+				</div>			
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="images/simpleliving.png" alt="Simple Living" />
+					</div>
+					<div class="caption">
+						<h2>Simple Living</h2>
+						<ul>
+							<li>
+								Advertising overload
+							</li>
+							<li>
+								Commercialization of childhood 
+							</li>
+							<li>
+								Hyper consumerism
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="images/socialJustice.png" alt="Social Justice" />
+					</div>
+					<div class="caption">
+						<h2>Social Justice</h2>
+						<ul>
+							<li>
+							Gender Inequality 
+								
+							</li>
+							<li>Racism </li>
+							<li>
+								 Heterosexism 
+							</li>
+							<li> Inadequete Health care </li>
+							<li>
+								Prisons
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="images/communities.png" alt="Revitalized Communities" />
+					</div>
+					<div class="caption">
+						<h2>Revitalised Communities	</h2>
+						<ul>
+							<li>
+								Loss of Connection 
+							</li>
+							<li>
+								Lack of compassion
+							</li>
+							<li><strong>Goals - Revolution of caring Smart Growth - Strong Local Institutions</strong></li>
+						</ul>
+					</div>
+				</div>
+								
+				<!-- Item -->
+				<div class="carousel_item">
+					<div class="image">
+						<img src="images/peace.png" alt="Comprehensive Peace" />
+					</div>
+					<div class="caption">
+						<h2>Comprehensive peace</h2>
+						
+						<ul>
+							<li>
+								War & Genocide
+							</li>
+							<li>
+								Militarisation
+							</li>
+							<li>
+								Unilateralism
+							</li>
+							<li><strong>Goals - International Coorporation - non violent culture</strong></li>
+						</ul>
+					</div>
+				</div>
+				
+				<!-- end items -->
+				
+			</div>			
+		</div>
+		<div class="row" style="text-align:center;">
+			<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#signupModal">Click Me</button>
+		</div>
+		<div class="modal fade" id="signupModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+						<div class="modal-header"><button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4></div>
+						<div class="modal-body"> <form action="">
+							<div class="form-group">
+								<span>What problem Do you want to Solve</span>
+								<select name="worldproblems" class="form-control" id="worldproblems">
+
+									<option value="Economic Fairness">Economic Fairness</option>
+									<option value="Comprehensive Peace">Comprehensive Peace</option>
+								</select>
+							<br><span> Answer</span>
+								<input type="text" class="form-control" name="wp_answer" /><br>
+								<span>Your Name</span>
+								<input type="text" class="form-control" name="wp_name" /> 
+							</div>
+						</form></div>
+						<div class="modal-footer"> 
+							<button class="btn btn-default" data-dismiss="modal">Close</button>
+							<button class="btn btn-primary">Submit</button>
+						</div>
+				</div>
+			</div>
+		</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+<script src="js/betterworld.js"></script>
+</body>
+</html>
