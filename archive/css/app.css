@@ -1,0 +1,25 @@
+.sideimages{
+	width:200px;
+}
+
+.images-title{
+	background: yellow;
+	color:green;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.container{
+	width:100%;
+}
+.sidepanel{
+	width:20%;
+}
+.main{
+	position: relative;
+    top: -450px;
+    left: 250px;
+}
